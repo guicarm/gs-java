@@ -15,7 +15,7 @@
         <!--vão dizer aonde vão estar os pacotes ou seja as classes -->
         <init-param>
             <param-name>jersey.config.server.provider.packages</param-name>
-            <param-value>app.vercel.cyclex.resource</param-value>
+            <param-value>app.vercel.nexus.resource</param-value>
         </init-param>
 
         <init-param>
