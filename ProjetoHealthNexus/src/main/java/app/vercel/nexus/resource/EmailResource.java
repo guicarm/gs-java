@@ -43,7 +43,7 @@ public class EmailResource {
 		@PUT
 		@Path("/{idEmail}")
 		@Consumes(MediaType.APPLICATION_JSON)
-		public Response atualizaRs (Email email, @PathParam("idEmail") int rm) throws SQLException, ClassNotFoundException {
+		public Response atualizaRs (Email email, @PathParam("idEmail") int idEmail) throws SQLException, ClassNotFoundException {
 			emailBO.atualizarBo(email);
 			return Response.ok().build();
 		}
